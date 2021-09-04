@@ -1,0 +1,48 @@
+@media only screen and (max-width: 770px){
+*{
+        box-sizing: border-box;
+    }
+    header{
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 8px;
+    }
+    code{
+        background-color:#F7F7F7;
+        padding: 20px;
+        border-radius: 2.5px;
+    }
+    p{
+        padding: 3px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+    }
+    .nav-link{
+        list-style: none;
+        padding: 10px; 
+        border-bottom: 2px solid gray;
+        text-align: left;
+    }
+    .nav-bar{
+        max-height: 600px;
+        overflow-y: auto;
+        height: 200px;
+        border: 1px solid gray;
+        }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: gray;
+        margin-left: 5px;
+    }
+    #main-doc{
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        flex-direction: column;
+        }
+        #navbar{
+            text-align: center;
+        }
+   
+}
